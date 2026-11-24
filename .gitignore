@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+.next/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Uploaded files
+uploads/
+
+# Logs
+*.log
+logs/
+
+# Testing
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Private credentials
+*.pem
+*.key
+*.p12
+
+# Database backups
+backups/
+*.dump
+*.bson
+*.sql
+
+# Local email testing scripts
+server/test-email.js
+server/testEmail.js
+server/testSMTP.js
